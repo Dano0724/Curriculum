@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Krona+One&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    background-color: rgb(226, 241, 243);
+      box-sizing: border-box;
+      color:#1b263b;
+}
+
+.header{
+    padding: 2%;
+     width: 100%;
+
+}
+
+.header__menu{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    background-color: #1b263b;
+    padding: 2%;
+    width: 100%;
+
+}
+
+.header__menu__link{
+     font-family: "Lexend", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: beige;
+  text-decoration: none;
+ 
+}
+
+.header__menu__link:hover{
+    background-color: cadetblue;
+}
+
+.presentacion{
+    display: flex;
+    padding: 3% 0% 0% 5%;
+    gap: 20px;
+}
+
+.imagen{
+    border-radius: 50%;
+
+     
+  
+}
+
+.presentacion__contenido__titulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1b263b;
+
+}
+
+.presentacion__contenido__subtitulo{
+     font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.presentacion__contenido__texto{
+     font-family: "Krona One", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+
+}
+
+.lista{
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color:#000000;
+     list-style-type: square; 
+      margin: 20px 0;
+}
+
+.footer{
+    width: 100%;
+    background-color: #1b263b;
+    font-family: "Lexend", sans-serif;
+    font-size: 24px;
+    padding: 2%;
+    color:beige;
+    text-align: center;
+
+}
+li{
+    margin: 10px;
+}
+
+.fotografias__container{
+ 
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  gap: 40px 40px;
+  justify-items: center;  
+}
+
+
+
+.fotografias{
+ width: 250px;
+  height: 250px;
+  border-radius: 50%;   /* hace que se vean redondas */
+  object-fit: cover;
+
+   
+}
